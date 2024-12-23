@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: MyAppLR8
+  datasource:
+    url: jdbc:h2:/Users/fiest/Desktop/MyAppLR8/testbasedata/students
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true
+    path: /h2-console
+  main:
+    allow-circular-references: true
+
+server:
+  port: 8082
